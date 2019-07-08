@@ -4,9 +4,9 @@ body{
 }
 /*css del header*/
 .header{
- background:#333;
+ background:rgba(68, 3, 75, 0.192);
  color: white;
- padding: 2rem 0;
+ padding: 1rem 0;
 
  position:fixed;
  left:0;
@@ -30,7 +30,7 @@ body{
 }
 .logo img{
   width: 40px;
-  height: 50px;
+  height: 30px;
 }
 .menu-icon{
     display: none;
@@ -57,16 +57,32 @@ body{
  .main{
    padding-top:7rem;
  }
- .color{
-    background-color: #cac71b;
+ form{
+    background-color: hsl(0, 0%, 100%);
     width: 450px;
-    height: 450px;
+    height: 350px;
+    text-align: center;
+    float: right;
+    padding:1rem 1rem;
 
+    transform: translate(15%,0%);
+}
+  form button{
+    background-color: #FF00BF;
+    font-size: 15px;
+    padding: 10px 18px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+  }
+input{
+  border: none;
+  border-bottom: 1px solid #aaa;
+  width: 70%;
 }
  .figure-image{
-    background-image: url(../assets/images/hero.gif);
-    width: 85%;
-    height: 450px;
+    background-image: url(../assets/images/hero.gif),linear-gradient(rgb(24, 13, 53),rgb(79, 22, 96),rgb(116, 38, 142),rgb(48, 31, 105));
+    background-repeat: no-repeat;
  }
  
 
