@@ -118,9 +118,8 @@ input{
 
   }
   
-  /*css del main-second*/
+  /*css del second-part*/
   #container-second{
-   
     background-image: linear-gradient(#76278F, #2B1E66);
     width: 100%;
     margin: 0 auto;
@@ -155,12 +154,49 @@ input{
     padding-top: 6rem;
     padding-bottom: 2rem;
   }
+  /*css third-part*/
+  #container-third{
+    background-color: white;
+    height: 50%;
+    text-align:left;
+    padding-left: 6rem;
+  }
+  .video-right{
+    position: absolute;
+    right: 0;
+  }
+  .video-left{
+    position: absolute;
+    left: 0;
+  }
+ 
+  #container-third h4{
+   margin-top: 0;
+   padding-top: 2rem;
+  }
+  .text-video{
+   width: 30%;
+  }
+  .video-two{
+    padding-top: 0.5rem;
+  }
+  .text-video-two{
+    width: 30%;
+    position: sticky;  
+    margin-right: auto;
+    margin-left: 54rem;
+  }
+  .container-video-one{
+    width: 90%;
+    
+  }
+
 /*css del footer*/
 .footer{
  background:#6b1919;
  padding: 4rem 0;
  text-align: center;
- margin-top: 6rem;
+ margin-top: 0.5rem;
 }
 /*css del header responsive*/
 @media only screen and (max-width: 600px){
@@ -208,4 +244,25 @@ input{
   margin: auto;
   padding: 1em;
  }
+ /*css terccera parte*/
+ .video-right{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .container-video-one {
+  display: block;
+  width: 100%;
+ }
+ #container-third{
+  padding:0;
+}
+
+#container-third iframe{
+width: 100vw;
+}
+.text-video-two{
+
+}
 }
