@@ -193,11 +193,64 @@ input{
 
 /*css del footer*/
 .footer{
- background:#6b1919;
- padding: 4rem 0;
- text-align: center;
+ background:#333447;
+ padding: 2rem 0;
  margin-top: 0.5rem;
+ color: white;
+ text-align: left;
 }
+#footer-container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ #footer-container h1:hover{
+  text-decoration-line: underline;
+ }
+ #footer-container h1{
+   font-size: 21px;
+ }
+   #footer-container p:hover{
+  color: #FF00BF;
+  }
+.img1 {
+  width: 100px;
+  height: 70px;
+  
+}
+.column4 img{
+  width: 100px;
+  height: 40px;
+  padding: 1rem;
+}
+.logos{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ .logos h1 {
+   font-size: 15px;
+   border: 2px solid white;
+   border-radius: 100%;
+   padding: 0.3rem;
+   padding-top: 0.4rem;
+   margin: 3rem;
+   margin-bottom: 1.2rem;
+   color: white;
+ }
+ hr {
+  border: 0;
+  border-top: 1px solid; 
+  border-bottom: 1px solid ;
+  height:0;
+  width: 80%;
+  }
+  .lyft-priv{
+    text-align: center;
+    margin-top: 3rem;
+  }
 /*css del header responsive*/
 @media only screen and (max-width: 600px){
     .menu-icon{
@@ -262,7 +315,5 @@ input{
 #container-third iframe{
 width: 100vw;
 }
-.text-video-two{
 
-}
 }
