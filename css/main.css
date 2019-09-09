@@ -251,6 +251,7 @@ input{
     text-align: center;
     margin-top: 3rem;
   }
+  
 /*css del header responsive*/
 @media only screen and (max-width: 600px){
     .menu-icon{
