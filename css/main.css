@@ -196,43 +196,49 @@ input{
 
 }
   
-  /*css del second-part*/
-  #container-second{
+  /*-----------------------------------css-del-second-part--------------------------------------*/
+  .container-second{
     background-image: linear-gradient(#76278F, #2B1E66);
     width: 100%;
     margin: 0 auto;
     color:white;
+    text-align: center;
   }
-  #container-second h2{
-    padding-top: 2.4em;
+  .container-second h2{
+    padding-top: 1.7em;
+    font-size: 23px;
     
   }
   .h2-let{
     margin-bottom: 0.5rem;
+    
   }
   .h3-letters{
     padding-top: none;
     font-size: 1.5rem;
     margin-top: 9px;
+    font-size: 23px;
   }
   .second-cont-letters{
-    padding-left: 7rem;
-    padding-top: 2rem;
+    /* padding-left: 7rem;
+    padding-top: 2rem; */
     padding-bottom: 4rem;
   }
   .second-cont-letters p{
     margin-bottom: 0.2rem;
     margin-top: 0rem;
+    font-size: 15px;
   }
-  .derecha{
-    float: right;
-    margin-left: 15px;
-    width:29rem;
-    height:29rem;
-    padding-top: 6rem;
-    padding-bottom: 2rem;
+  .derecha img{
+    /* float: right; */
+    /* margin-left: 15px; */
+    width:100%;
+    height:100%;
+    margin: 2rem 0;
+    /* padding-top: 6rem;
+    padding-bottom: 2rem; */
   }
-  /*css third-part*/
+  /*-----------------------------------css third-part--------------------------------------------*/
   #container-third{
     background-color: white;
     height: 50%;
@@ -329,6 +335,7 @@ input{
     text-align: center;
     margin-top: 3rem;
   }
+  /* --------------------------------------PARTE-RESPONSIVE------------------------------------ */
 /*css del header responsive*/
 @media only screen and (max-width: 600px){
     .menu-icon{
@@ -424,7 +431,34 @@ width: 100vw;
     margin: 0;
   }
   .empty{
-    height:324px;
+    height:335px;
   }
-   
+   /* -------------------RESPONSIVE-SEGUNDA-SECCIÓN-------------------------------------------- */
+ .container-second{
+    text-align: left;
+   }
+.container-second h2{
+  padding-top: 1.3em;
+  font-size: 20px;
+  
 }
+.h3-letters{
+  font-size: 20px;
+}
+.second-cont-letters{
+  padding-left: 0;
+  padding-top: 2rem;
+  text-align: left;
+}
+.second-cont-letters p{
+  font-size: 13px;
+}
+.derecha img{
+  float: right;
+  margin-left: 15px;
+  width:19rem;
+  height:29rem;
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+ }
