@@ -461,13 +461,29 @@ input{
     margin-left: 63%
   }
 }
-@media only screen and (min-width: 920px){
+@media only screen and (min-width: 950px){
   .video-yout,.video-left {
     padding: 10rem 19rem;
     overflow: initial;
   }
   /* ------css-segundo-video------ */
   .container-video-two{
-    margin-left: 67%
+    margin-left: 75%;
+  }
+}
+@media only screen and (min-width: 1200px){
+  .video-yout,.video-left {
+    padding: 12rem 25rem;
+    overflow: initial;
+  }
+  .container-video-one{
+    height: 384.5px;
+  }
+  .container-video-two{
+    margin-left: 65%;
+    height: 372px;
+  }
+  .container-video-three{
+    height: 369.9px;
   }
 }
